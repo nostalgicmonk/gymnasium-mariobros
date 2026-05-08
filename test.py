@@ -1,8 +1,8 @@
-from gym_super_mario_bros.wrappers import JoypadSpace
-import gym_super_mario_bros
-from gym_super_mario_bros.actions import SIMPLE_MOVEMENT
+from gymnasium_mariobros.wrappers import JoypadSpace
+import gymnasium_mariobros
+from gymnasium_mariobros.actions import SIMPLE_MOVEMENT
 
-env = gym_super_mario_bros.make('SuperMarioBros-v2', render_mode="human")
+env = gymnasium_mariobros.make('SuperMarioBros-v2', render_mode="human")
 env = JoypadSpace(env, SIMPLE_MOVEMENT)
 
 done = True
