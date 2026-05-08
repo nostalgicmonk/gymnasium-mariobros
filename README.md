@@ -1,5 +1,7 @@
 # gym-super-mario-bros
 
+> **注意：** 本项目尚未发布 pip 包，仍在持续完善中。如需使用，请直接从源码安装。
+
 [![BuildStatus][build-status]][ci-server]
 [![PackageVersion][pypi-version]][pypi-home]
 [![PythonVersion][python-version]][python-home]
