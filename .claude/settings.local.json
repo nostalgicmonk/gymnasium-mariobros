@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(C:/Users/yjwu/.conda/envs/python312-v2/python.exe c:/code/gymnasium-mariobros/test.py)"
+    ]
+  }
+}
